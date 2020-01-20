@@ -117,6 +117,7 @@ nav .btn{
   align-items: center;
   text-align: center;
   text-transform: lowercase;
+<<<<<<< HEAD
   font-family: "Barlow", Arial, Helvetica, sans-serif;
 }
 
@@ -293,3 +294,21 @@ main.faq{
     padding: 20px 2rem;
   }
 }
+=======
+}
+
+.robotoBgFont{
+font-family: "Roboto";
+font-style: normal;
+font-weight: bold;
+font-size: 36pt;
+}
+
+.robotoSmFont {
+font-family: "Roboto";
+font-style: normal;
+font-size: 18pt;
+letter-spacing: -0.24px;
+color: #E6EFF3;
+}
+>>>>>>> hero section positioning
