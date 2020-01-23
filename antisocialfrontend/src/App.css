@@ -220,8 +220,6 @@ main.about{
   justify-content: center;
   align-content: center;
 }
-<<<<<<< HEAD
-=======
 
 .about .col.col-text h2{
   max-width: 500px;
@@ -312,4 +310,3 @@ main.faq{
     padding: 20px 2rem;
   }
 }
->>>>>>> parent of ba0fa90... hero section positioning
