@@ -5,12 +5,13 @@ html{
 }
 
 body{
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;;
   font-style: normal;
+  font-weight: 800;
   color: #FFFFFF;
   background: #00344A;
 }
-
+ 
 .font-light {
   color: #66625C;
 }
@@ -48,13 +49,20 @@ h3.subtitle{
 h3.font-light{
   text-transform: uppercase;
 }
-
 .bgdark{
   background-color: #00344A;
 }
 
 .green{
   color: #7FBF16;
+}
+
+.greenButton{
+  background-color: #7FBF16;
+  color: #FFF;
+  padding: 1em;
+  border-radius: 100rem;
+  font-weight: bold;
 }
 
 .btn{
@@ -72,7 +80,6 @@ h3.font-light{
 .btn-primary:hover{
   background-color: #89DC00;
 }
-
 .display-linebreak {
   white-space: pre-line;  
 }
@@ -106,6 +113,7 @@ nav .btn{
   font-weight: bold;
 }
 
+
 .navbar-brand{
   font-size: 30px;
   line-height: 38px;
@@ -117,10 +125,16 @@ nav .btn{
   align-items: center;
   text-align: center;
   text-transform: lowercase;
-<<<<<<< HEAD
   font-family: "Barlow", Arial, Helvetica, sans-serif;
 }
 
+.hero.container{
+  display: flex;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4em;
+}
 .hero.jumbotron{
   display: flex;
   -webkit-display: flex;
@@ -139,11 +153,26 @@ nav .btn{
   -ms-flex-wrap: wrap;
 }
 
+.col-12.text-left.display-linebreak{
+  padding-left: 0;
+}
 .hero .container{
   display: flex;
   -webkit-display: flex;
   height: auto;
 } 
+.hero .col-text{
+  flex-grow: 3;
+  padding-right: 1em;
+  padding-left: 0;
+}
+
+.hero .col-text button{
+  margin-top: 1em;
+}
+
+.hero .col.col-img{
+  justify-content: flex-end;
 
 .hero .col.col-text{
   padding-right: 4em;
@@ -151,19 +180,6 @@ nav .btn{
   justify-content: flex-start;
   align-content: center;
   width: 50%;
-}
-
-.hero .display-4{
-  width: 100%;
-  font-weight: bold;
-}
-
-.hero .col.col-text p{
-  width: 100%;
-  font-size: 22px;
-  color: #E6EFF3;
-  line-height: 30px;
-  margin: 0;
 }
 
 .hero .col-text button{
@@ -204,111 +220,3 @@ main.about{
   justify-content: center;
   align-content: center;
 }
-
-.about .col.col-text h2{
-  max-width: 500px;
-  margin-bottom: 2rem;
-}
-
-.about .col.col-text p{
-  line-height: 27px;
-  max-width: 500px;
-  margin-bottom: 1.5rem;
-}
-
-.about .col.col-img{
-  display: flex;
-  -webkit-display: flex;
-  width: 45%;
-  padding-right: 0;
-}
-
-.about .col.col-img img{
-  width: 100%;
-}
-
-main.key-features{
-  background: #F6F6F6;
-  padding: 50px 0;
-}
-
-main.key-features .container{
-  height: auto;
-}
-
-.key-features h2{
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.key-features .cards{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.key-features .card{
-  width: 25rem;
-  flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  align-content: space-around;
-  text-align: center;
-  overflow: hidden; 
-  border: none;
-  background-color: inherit;
-}
-
-.key-features .card img{
-  width: 47px;
-  height: 47px;
-  margin-bottom: 2rem;
-}
-
-.key-features .card-body{
-  padding: 20px 1rem;
-}
-
-.key-features .card-body h3{
-  font-size: 21px;
-  font-weight: bold;
-  text-transform: none;
-}
-
-.key-features .card-body p{
-  line-height: 24px;
-}
-
-main.faq{
-  background: #6B97A9;
-}
-
-@media screen and (min-width:1480px){
-  .container{
-    max-width: 1400px;
-  }
-  
-  .hero .container{
-    max-width: 1000px;
-  }
-
-  .key-features .card-body{
-    padding: 20px 2rem;
-  }
-}
-=======
-}
-
-.robotoBgFont{
-font-family: "Roboto";
-font-style: normal;
-font-weight: bold;
-font-size: 36pt;
-}
-
-.robotoSmFont {
-font-family: "Roboto";
-font-style: normal;
-font-size: 18pt;
-letter-spacing: -0.24px;
-color: #E6EFF3;
-}
->>>>>>> hero section positioning

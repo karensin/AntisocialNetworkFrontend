@@ -12,24 +12,14 @@ class NavLink extends Component {
                     <img
                         src={process.env.PUBLIC_URL + "/img/yay_potato.png"}
                         className="logo"
-<<<<<<< HEAD
                         width="28"
                         height="49"
-=======
-                        width="30"
-                        height="50"
->>>>>>> hero section positioning
                         className="d-inline-block align-top"
                         alt="logo" />
                     <Navbar.Brand className="text-success custom">superpotato</Navbar.Brand>
                     <Nav className="navbar-collapse collapse justify-content-end">
-<<<<<<< HEAD
                         <Nav.Link className="nav-link" href="#home">about</Nav.Link>
                         <button className="btn btn-primary" type="button">Get early access</button>
-=======
-                        <Nav.Link className="text-success" href="#home">FAQ</Nav.Link>
-                        <Nav.Link className="text-success" > <CTA />  </Nav.Link>
->>>>>>> hero section positioning
                     </Nav>
                 </Navbar>
             </nav>
