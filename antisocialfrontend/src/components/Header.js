@@ -17,7 +17,7 @@ class Header extends Component {
                                     stress-free.
                                 </h1>
                                 <p className="lead">
-                                    Superpotato is a personal assistant that helps you remember, manage, and grow your social network.
+                                    Superpotato is a personal assistant that helps you remember, manage, and grow your social network. 
                                 </p>
                                 <p className="lead">
                                     Stop messing with spreadsheets and chillax like a real potato.

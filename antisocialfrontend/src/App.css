@@ -220,3 +220,96 @@ main.about{
   justify-content: center;
   align-content: center;
 }
+<<<<<<< HEAD
+=======
+
+.about .col.col-text h2{
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.about .col.col-text p{
+  line-height: 27px;
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+.about .col.col-img{
+  display: flex;
+  -webkit-display: flex;
+  width: 45%;
+  padding-right: 0;
+}
+
+.about .col.col-img img{
+  width: 100%;
+}
+
+main.key-features{
+  background: #F6F6F6;
+  padding: 50px 0;
+}
+
+main.key-features .container{
+  height: auto;
+}
+
+.key-features h2{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.key-features .cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.key-features .card{
+  width: 25rem;
+  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  align-content: space-around;
+  text-align: center;
+  overflow: hidden; 
+  border: none;
+  background-color: inherit;
+}
+
+.key-features .card img{
+  width: 47px;
+  height: 47px;
+  margin-bottom: 2rem;
+}
+
+.key-features .card-body{
+  padding: 20px 1rem;
+}
+
+.key-features .card-body h3{
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.key-features .card-body p{
+  line-height: 24px;
+}
+
+main.faq{
+  background: #6B97A9;
+}
+
+@media screen and (min-width:1480px){
+  .container{
+    max-width: 1400px;
+  }
+  
+  .hero .container{
+    max-width: 1000px;
+  }
+
+  .key-features .card-body{
+    padding: 20px 2rem;
+  }
+}
+>>>>>>> parent of ba0fa90... hero section positioning
