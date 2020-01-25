@@ -19,10 +19,11 @@ class NavLink extends Component {
                     <Navbar.Brand className="text-success custom">superpotato</Navbar.Brand>
                     <Nav className="navbar-collapse collapse justify-content-end">
                         <Nav.Link className="nav-link" href="#home">about</Nav.Link>
-                        <button className="btn btn-primary" type="button">Get early access</button>
+                        {/* <button className="btn btn-primary" type="button">Get early access</button> */}
+                        <CTA />
                     </Nav>
                 </Navbar>
-            </nav>
+            </nav >
         )
     }
 

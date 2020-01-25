@@ -310,3 +310,11 @@ main.faq{
     padding: 20px 2rem;
   }
 }
+
+label.form-label{
+  color: #00344A;
+  font-family: "Roboto", sans-serif;;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 5px;
+}
